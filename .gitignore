@@ -1,0 +1,27 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Artifacts (we keep only trained models, not temporary files)
+artifacts/*.tmp
